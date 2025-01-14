@@ -1,0 +1,59 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="mySuit">
+
+    <test name="AllTests">
+        <parameter name="msg" value="SDET Yazılım Test Mühendisi">  </parameter>
+        <classes>
+            <class name="TestCase.AllTestCase"> </class>
+        </classes>
+    </test>
+
+    <test name="myTest1">
+
+        <parameter name="msg" value="Android uygulama geliştirme">  </parameter>
+
+        <classes>
+            <class name="TestCase.AllTestCase">
+                <methods>
+                    <include name="Test7">  </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="myTest2">
+        <parameter name="msg" value="Veri bilimi">  </parameter>
+        <classes>
+            <class name="TestCase.AllTestCase">
+                <methods>
+                    <include name="Test7">  </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="myTest3">
+
+        <parameter name="msg" value="Job Center  Arbeitsamt">   </parameter>
+
+        <classes>
+            <class name="TestCase.AllTestCase">
+                <methods>
+                    <include name="Test7">  </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="myTest4">
+        <parameter name="msg" value="Master's Program"> </parameter>
+        <classes>
+            <class name="TestCase.AllTestCase">
+                <methods>
+                    <include name="Test7">  </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
